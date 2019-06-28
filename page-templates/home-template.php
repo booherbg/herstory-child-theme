@@ -1,8 +1,8 @@
 <?php
 /**
- * Template Name: Herstory Home Template
+ * Template Name: Herstory: Home Page Template
  *
- * Template for displaying a blank page.
+ * Template for displaying the Home Page
  *
  * @package understrap
  */
@@ -30,13 +30,13 @@ $container = get_theme_mod( 'understrap_container_type' );
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="/wp-content/uploads/2019/06/periodsandrace.jpg" alt="First slide">
+        <img class="d-block w-100" src="/wp-content/uploads/2019/06/periodsandraceNEW.jpg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/wp-content/uploads/2019/06/products2-resized.jpg" alt="Second slide">
+        <img class="d-block w-100" src="/wp-content/uploads/2019/06/products2NEWEST.jpg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="/wp-content/uploads/2019/06/tedtalk.jpg" alt="Third slide">
+        <img class="d-block w-100" src="/wp-content/uploads/2019/06/tedtalkNEW.jpg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
