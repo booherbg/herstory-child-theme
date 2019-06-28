@@ -1,0 +1,78 @@
+/*css for same font*/
+body {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: #e59ab9;
+}
+/*all background color*/
+.herstory-container {
+  background-color: white;
+  padding: 20px;
+}
+/*main titles*/
+#title {
+  font-size: 3em;
+  color: black;
+}
+/*subtitles*/
+#heading {
+  font-size: 2em;
+  color: #f40084;
+  padding-left: 20px;
+}
+/*body text*/
+p {
+font-size: 1.25em;
+color: black;
+padding-left: 30px;
+}
+/*for cropped and fitted images*/
+.coverimage {
+  position: relative;
+      float: left;
+      width:  100px;
+      height: 100px;
+      background-position: 50% 50%;
+      background-repeat:   no-repeat;
+      background-size:     cover;
+}
+.crop {
+ height: 300px;
+ width: 400px;
+ overflow: hidden;
+}
+.crop img {
+ height: auto;
+ width: 400px;
+}
+
+.logo {
+  width: 100%;
+}
+/*for shaping footer*/
+.page-footer {
+  padding: 50px;
+  background: black;
+  margin-top: 20px;
+  margin-bottom: -15px;
+  color: white;
+}
+/*for nav bar*/
+.herstory-nav {
+  background-color: black;
+}
+/*for nav bar image*/
+nav img {
+  max-width: 75px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+#body {
+font-size: 1.25em;
+color: #000000;
+padding-left: 30px;
+}
+a:visited { color: #f40084; text-decoration: none; font-weight: normal }
+a:hover { color: #e59ab9; text-decoration: none; font-weight: none }
+#nav-link {
+    color: #969696;
+}   

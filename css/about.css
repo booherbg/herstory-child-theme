@@ -1,0 +1,66 @@
+/*sets font for all text*/
+body {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: #e59ab9;
+}
+.paragraph{
+  text-align:left;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.25em;
+}
+h1{
+  text-align:left;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+h2{
+  text-align:left;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#caption{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 16px;
+  text-align:center;
+}
+
+#bridget_headshot{
+  width:363px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*sets the dual color text, all text in the <span> is set to be pink*/
+span{
+  color: #D63775;
+}
+
+/*css for the website background*/
+.herstory-container {
+  background-color: white;
+  padding: 20px;
+}
+.page-footer {
+  padding: 50px;
+  background: black;
+  margin-top: 20px;
+  margin-bottom: -15px;
+  color: white;
+}
+.herstory-nav {
+  background-color: black;
+}
+nav img {
+  max-width: 75px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+A:visited { COLOR: #f40084; TEXT-DECORATION: none; font-weight: normal }
+A:hover { COLOR: #e59ab9; TEXT-DECORATION: none; font-weight: none }
+#nav-link {
+    color: #969696;
+}

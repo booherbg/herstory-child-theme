@@ -15,11 +15,18 @@ function my_theme_enqueue_styles() {
 function wpse_enqueue_page_template_styles() {
     if ( is_page_template( 'page-templates/home-template.php' ) ) {
         wp_enqueue_style( 'page-template', get_stylesheet_directory_uri() . '/css/home.css' );
-	    wp_enqueue_style( 'child-style',
-	        get_stylesheet_directory_uri() . '/css/home.css' ,
-	        array( 'parent-style' ),
-	        wp_get_theme()->get('Version')
-	    );
+    }
+    if ( is_page_template( 'page-templates/about-template.php' ) ) {
+        wp_enqueue_style( 'page-template', get_stylesheet_directory_uri() . '/css/about.css' );
+    }
+    if ( is_page_template( 'page-templates/free-products-template.php' ) ) {
+        wp_enqueue_style( 'page-template', get_stylesheet_directory_uri() . '/css/free-products.css' );
+    }
+    if ( is_page_template( 'page-templates/how-to-donate-template.php' ) ) {
+        wp_enqueue_style( 'page-template', get_stylesheet_directory_uri() . '/css/how-to-donate.css' );
+    }
+    if ( is_page_template( 'page-templates/volunteer-template.php' ) ) {
+        wp_enqueue_style( 'page-template', get_stylesheet_directory_uri() . '/css/volunteer.css' );
     }
 
     /*

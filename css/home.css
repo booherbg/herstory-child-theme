@@ -34,21 +34,12 @@ nav a > img {
   font-size: 3em;
   color: black;
 }
-/*button text*/
-a {
-  color: #d63775;
-}
+
 /*body text*/
 #body {
 font-size: .5em;
 color: #d63775;
 padding-left: 30px;
-}
-
-a:hover { 
-  color: #e59ab9; 
-  text-decoration: none; 
-  font-weight: none 
 }
 
 span{

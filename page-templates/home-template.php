@@ -31,12 +31,27 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100" src="/wp-content/uploads/2019/06/periodsandraceNEW.jpg" alt="First slide">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Periods &amp; Race</h1>
+            <p>A night talking about hard topics</p>
+          </div>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="/wp-content/uploads/2019/06/products2NEWEST.jpg" alt="Second slide">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Period Product Donations</h1>
+            <p><a href="/donate" class="btn" id="home-btn-1">Donate Now</a></p>
+          </div>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100" src="/wp-content/uploads/2019/06/tedtalkNEW.jpg" alt="Third slide">
+
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Ted Talk about the B.Y.O.T. Society</h1>
+            <p><a href='/about' class="btn" id="home-btn-2">Learn More</a></p>
+          </div>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -60,15 +75,15 @@ $container = get_theme_mod( 'understrap_container_type' );
     <!--icon bar-->
     <div class="row">
       <div class="col-sm-4">
-        <a href="about.html" class="icon-link"><i class='fas fa-info-circle' id="about"></i></a>
+        <a href="/about" class="icon-link"><i class='fas fa-info-circle' id="about"></i></a>
         <p>Learn About Us</p>
       </div>
       <div class="col-sm-4">
-        <a href="how-to-donate.html" class="icon-link"><i class='fas fa-gift' id="donate"></i></a>
+        <a href="/donate" class="icon-link"><i class='fas fa-gift' id="donate"></i></a>
         <p>Donate To HerStory</p>
       </div>
       <div class="col-sm-4">
-        <a href="volunteer.html" class="icon-link"><i class='fas fa-hand-holding-heart' id="volunteer"></i></a>
+        <a href="/volunteer" class="icon-link"><i class='fas fa-hand-holding-heart' id="volunteer"></i></a>
         <p>Learn About Volunteer Opportunities</p>
       </div>
     </div>

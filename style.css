@@ -26,3 +26,87 @@ and of course
 jQuery: https://jquery.org | (Code licensed under MIT)
 WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
 */
+
+body {
+   font-family: 'Alegreya Sans', sans-serif !important;
+}
+
+.nav-item, #heading, .subtitle, .heading, #title, .title, h1, h2, h3, h4, h5 h6 {
+   font-family: 'Alegreya Sans SC', sans-serif !important;
+
+}
+#title, .title {
+  font-weight: bold;
+}
+
+.page-footer {
+  padding: 50px;
+  background: black;
+  margin-top: 20px;
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin-bottom: -15px;
+  color: white;
+}
+a {
+   transition: .5s;
+}
+/*button text*/
+.herstory-container a {
+  color: #d63775 !important;
+}
+.herstory-container a:hover { 
+  color: #e59ab9 !important; 
+  text-decoration: none; 
+  font-weight: none 
+}
+
+/*nav .container {
+   position: relative;
+}*/
+/*
+.navbar-collapse {
+   /*margin-top: 30px;
+}*/
+
+/*nav {
+   min-height: 80px;
+}
+
+nav img {
+   position: absolute;
+   top: -10px;
+   left: 0px;
+}*/
+
+@media only screen and (max-width: 768px) {
+   nav img {
+      margin-left: -242px !important;
+   }
+}
+
+@media only screen and (max-width: 991px) {
+   nav img {
+      margin-left: -332px;
+   }
+}
+
+nav img {
+   margin-left: -15px;
+}
+
+/*.carousel {
+   max-height: 550px;
+   overflow: hidden;
+}*/
+
+.carousel-caption {
+  text-shadow: 2px 2px 1px #000000;
+}
+.carousel-caption p {
+   font-size: 1.2rem;
+}
+#home-btn-1, #home-btn-2 {
+   color: white !important;
+   background-color: #D63775 !important;
+}

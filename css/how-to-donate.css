@@ -1,0 +1,82 @@
+.pink{
+  background-color: white;
+  color:black;
+  margin:50px;
+  margin-left:60px;
+  margin-right:60px
+}
+.mybuuton:active
+{
+  background:url("./img/sbtn_imgs.jpg");
+}
+#button-section{
+  background-color:white;
+  margin-right: 1707px;
+  margin-bottom: 7px;
+  margin-left: 15px;
+  margin-top:75px;
+
+  /*display: flex; justify-content: center;*/
+}
+h2{
+  text-align:center;
+}
+
+
+.halfrow{
+  margin:40px;
+  padding:40px;
+  text-align:center;
+}
+.ppbutton {
+  cursor:pointer;
+  width: 100%;
+  padding: 4px 8px;
+  cursor: pointer;
+  text-align: center
+}
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #e59ab9;
+}
+
+.nav-item, .title, h3 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.herstory-container {
+  background-color: white;
+  padding: 20px;
+}
+.page-footer {
+  padding: 50px;
+  background: black;
+  margin-top: 20px;
+  margin-bottom: -15px;
+  color: white;
+}
+.herstory-nav {
+  background-color: black;
+}
+nav img {
+  max-width: 75px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+.title {
+  font-size: 3em;
+  color: black;
+  font-weight: bold;
+}
+#heading {
+  font-size: 2em;
+  color: #f40084;
+  padding-left: 20px;
+  margin-top:-30px;
+}
+p {
+font-size: 1.25em;
+color: black;
+}
+.pink-color {
+  color:#D63775;
+}
