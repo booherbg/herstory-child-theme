@@ -32,10 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
               <h1 id="title">About <span>Her</span>Story</h1>
               <h2> Our <span>Origins</span></h2>
               <p class="paragraph">
-                HerStory was started in the summer of 2016 by then high school student, Bridget McManamon. In response to her own struggles with menstrual health and problematic periods, Bridget wanted to find a way to support other women and make sure all women had the resources they needed to manage their periods.
-                <br/>
-                <br/>
-                Now 3 years later Herstory has raised over $13,000, distributed 3,500 period kits to women in need, launched a program to get free period products in schools and business restrooms and done a variety of programming that sparks conversation on menstrual health in hopes to end the period stigma. Herstory has received generous funding and support from Vital Voices, Ann Taylor, HERlead Fellowship, The Young Entrepreneurs Academy and The Fargo Moorhead West Fargo Chamber of Commerce. Bridget has spoken locally and nationally on the topic from New York, San Francisco, Washington DC and on the TED Stage.
+                <?php $my_snippet = PostSnippets::getSnippet( 'about_paragraph1', ''); ?>
               </p>
               <h2> Our <span>Mission</span></h2>
               <p class="paragraph">

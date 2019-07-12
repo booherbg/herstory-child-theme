@@ -1,4 +1,6 @@
 <?php
+
+/* Set up the child theme CSS file so that it gets loaded after the parent CSS */
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 function my_theme_enqueue_styles() {
  
@@ -12,6 +14,8 @@ function my_theme_enqueue_styles() {
     );
 }
 
+/* Custom hooks for enqueing the proper CSS files with each HerStory template 
+    If you add a new template page, just add a corresponding css enqueue call here */
 function wpse_enqueue_page_template_styles() {
     if ( is_page_template( 'page-templates/home-template.php' ) ) {
         wp_enqueue_style( 'page-template', get_stylesheet_directory_uri() . '/css/home.css' );
@@ -28,25 +32,11 @@ function wpse_enqueue_page_template_styles() {
     if ( is_page_template( 'page-templates/volunteer-template.php' ) ) {
         wp_enqueue_style( 'page-template', get_stylesheet_directory_uri() . '/css/volunteer.css' );
     }
-
-    /*
-    if ( is_page_template( 'mytemplate.php' ) ) {
-        wp_enqueue_style( 'page-template', get_template_directory_uri() . '/css/page-template.css' );
-    }
-    if ( is_page_template( 'mytemplate.php' ) ) {
-        wp_enqueue_style( 'page-template', get_template_directory_uri() . '/css/page-template.css' );
-    }
-    if ( is_page_template( 'mytemplate.php' ) ) {
-        wp_enqueue_style( 'page-template', get_template_directory_uri() . '/css/page-template.css' );
-    }
-    if ( is_page_template( 'mytemplate.php' ) ) {
-        wp_enqueue_style( 'page-template', get_template_directory_uri() . '/css/page-template.css' );
-    }*/
 }
 add_action( 'wp_enqueue_scripts', 'wpse_enqueue_page_template_styles' );
 
 /**
- * Replaces logo CSS class.
+ * Replaces logo CSS class. Needed to get rid of wordpress boilerplate.
  *
  * @param string $html Markup.
  *
