@@ -25,11 +25,10 @@ $container = get_theme_mod( 'understrap_container_type' );
       <div class="col-sm-12">
         <h1 class="title"> Donate </h1>
         <h3><span class="pink-color"> Products</span> Donations</h3>
-        <p>
-
-          Herstory welcomes the donation of hygiene products including pads, tampons, menstrual cups, women's underwear and assorted toiletries. We happily accept one time and reoccurring product donations. The products will go towards fueling Herstory's mission of making sure all women have the resources they need to manage their periods. Please refer to our Contact Page to set up a product donation.
-          <h3><span class="pink-color"> Monetary</span> Donations</h3>
-          <p>Your generous donation will help Herstory reach even more women in need and work to erase the stigma that surrounds menstruation. Refer to our Paypal account to make a one time or reoccurring donation.</p>
+        <p><?php echo PostSnippets::getSnippet( 'donate_paragraph1', ''); ?></p>
+          
+        <h3><span class="pink-color"> Monetary</span> Donations</h3>
+        <p><?php echo PostSnippets::getSnippet( 'donate_paragraph2', ''); ?></p>
 
         </p>
       </div>

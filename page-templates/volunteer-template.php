@@ -34,15 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
       <div class=row>
         <div class="col-sm-12">
-          <p id="body">We are always looking for volunteers of many
-            different kinds! If you wish to help host or attend a
-            Period Packing Party (where we pack menstrual hygine
-            products into kits for sending to businesses and
-            shelters), deliver Period Packs to shelters or
-            businesses, or would like to help contact local
-             businesses about using Period Packs, please contact
-             our founder,
-             <a href="/about">Bridget McManamon</a>.</p>
+          <p id="body"><?php echo PostSnippets::getSnippet( 'volunteer_paragraph1', ''); ?></p>
         </div>
       </div>
 
@@ -54,12 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
       <div class=row>
         <div class="col-sm-12">
-          <p id="body">        We are always looking for donations of
-             menstrual hygine products including pads, tampons,
-              menstrual cups, underwear (all sizes), wash cloths, and
-               travel sized toiletries. If you wish to make a donation,
-                please check out our
-                 <a href="/donate">donations page</a>!</p>
+          <p id="body"><?php echo PostSnippets::getSnippet( 'volunteer_paragraph2', ''); ?></p>
         </div>
       </div>
 
@@ -71,10 +58,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
       <div class=row>
         <div class="col-sm-12">
-          <p id="body">We are always looking for businesses
-          to support us by putting period products in their
-        restrooms. If you are an interested buisness owner, please
-       contact <a href="about.html">Bridget McManamon.</a></p>
+          <p id="body"><?php echo PostSnippets::getSnippet( 'volunteer_paragraph3', ''); ?></p>
         </div>
       </div>
 

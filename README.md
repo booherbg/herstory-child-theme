@@ -70,7 +70,7 @@ After:
 ``` html
 <div class="row">
    <div class="col-md-6">
-      <p class="my-paragraph"><?php $my_snippet = PostSnippets::getSnippet( 'about_paragraph1', ''); ?></p>
+      <p class="my-paragraph"><?php echo PostSnippets::getSnippet( 'about_paragraph1', ''); ?></p>
    </div>
 </div>
 ```

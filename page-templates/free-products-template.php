@@ -49,18 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
       <div class="col-sm-12">
 
         <ul id="list">
-          <li> The Prairie Den</li>
-          <li> The Toasted Frog</li>
-          <li> The Plains Art Museum</li>
-          <li> Atomic Coffee</li>
-          <li> Eyes on Broadway</li>
-          <li> Mezzaluna</li>
-          <li> Boots and Heels</li>
-          <li> Ps and Qs Etuquette</li>
-          <li> Fargo Brewing Company</li>
-          <li> Country Financial</li>
-          <li> Some Moorhead Public Schools</li>
-          <li> Some Fargo Public Schools</li>
+          <?php echo PostSnippets::getSnippet( 'free_products_list', ''); ?>
         </ul>
       </div>
       <div class="row">
